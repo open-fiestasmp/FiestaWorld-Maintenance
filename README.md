@@ -19,3 +19,5 @@ For a Paper server, stop the destination server first, make a separate backup of
 ## What this is
 
 This repository is an unofficial backup of the FiestaSMP `maintenance` world. It is not affiliated with, endorsed by, or sponsored by Mojang or Microsoft. No license to Minecraft software or other Mojang/Microsoft material is granted by this repository; those remain subject to their own terms. This archive may contain player-created world data.
+
+Backed up and published using Fiesta tools by `gautam652`.
