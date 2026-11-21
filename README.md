@@ -1,23 +1,19 @@
-# FiestaSMP maintenance world snapshot
+# FiestaSMP maintenance world
 
-This is a public snapshot of the `maintenance` world from the FiestaSMP Minecraft server at **fiestamc.neocities.org**. Snapshot/release date: **2026-11-21**. Git commit timestamps show when each repository update was recorded.
+This is the raw `maintenance` world folder from FiestaSMP at **fiestamc.neocities.org**. Snapshot date: **2026-11-21**. This is the world save, not the server plugins or config.
 
-## Download
+## Download it
 
-1. Open the [Releases page](https://github.com/open-fiestasmp/world-maintaince/releases).
-2. Open the dated `snapshot-2026-11-21` release.
-3. Download **Source code (zip)** and extract it. The extracted folder contains the world root, including `level.dat`.
+Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), pick `snapshot-2026-11-21`, then download **Source code (zip)** and extract it. The folder with `level.dat` is the save. **Code → Download ZIP** gets the latest branch instead.
 
-You can also use GitHub's **Code → Download ZIP** button to download the current branch.
+## Load it
 
-## Load in Minecraft Java Edition
+**Single-player:** copy the extracted folder with `level.dat` into your Java Edition `saves` folder.
 
-For single-player, copy the extracted folder that contains `level.dat` into your Java Edition `saves` directory, then open Minecraft and select it under **Singleplayer**. Do not copy only the `region` folder; the world root contains other required data too.
+**Paper server:** stop the server and back up its current worlds first. Put the extracted folder in the server's world directory and set `level-name` to that folder name. Start with a compatible Minecraft/Paper version. Don't merge files into a running world.
 
-For a Paper server, stop the destination server first, make a separate backup of its current world, and place the extracted world folder under the server's world container using the desired `level-name`. Start with a Minecraft/Paper version compatible with the snapshot. Do not merge this snapshot into a running world.
+## About this backup
 
-## What this is
-
-This repository is an unofficial backup of the FiestaSMP `maintenance` world. It is not affiliated with, endorsed by, or sponsored by Mojang or Microsoft. No license to Minecraft software or other Mojang/Microsoft material is granted by this repository; those remain subject to their own terms. This archive may contain player-created world data.
+This is an unofficial FiestaSMP community backup. It is not affiliated with or endorsed by Mojang or Microsoft, and it does not give anyone a license to Minecraft or their other material.
 
 Backed up and published using Fiesta tools by `gautam652`.
