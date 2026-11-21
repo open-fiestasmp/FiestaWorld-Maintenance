@@ -1,19 +1,19 @@
-# FiestaSMP maintenance world
+# fiesta maintenance world
 
-This is the raw `maintenance` world folder from FiestaSMP at **fiestamc.neocities.org**. Snapshot date: **2026-11-21**. This is the world save, not the server plugins or config.
+Raw `maintenance` world folder from FiestaSMP (`fiestamc.neocities.org`), saved on 2026-11-21. This is just the world save, not the server plugins or config.
 
-## Download it
+## grab the files
 
-Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), pick `snapshot-2026-11-21`, then download **Source code (zip)** and extract it. The folder with `level.dat` is the save. **Code → Download ZIP** gets the latest branch instead.
+Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), pick `snapshot-2026-11-21`, then download **Source code (zip)** and extract it. Use the folder with `level.dat`. The green **Code → Download ZIP** link gets the latest branch instead.
 
-## Load it
+## load it
 
-**Single-player:** copy the extracted folder with `level.dat` into your Java Edition `saves` folder.
+**Single-player:** copy the extracted folder into your Java Edition `saves` folder.
 
-**Paper server:** stop the server and back up its current worlds first. Put the extracted folder in the server's world directory and set `level-name` to that folder name. Start with a compatible Minecraft/Paper version. Don't merge files into a running world.
+**Paper server:** stop it and back up its current worlds first. Put the extracted folder in the server's world directory and set `level-name` to that folder's name. Don't merge files into a running world; use a compatible Minecraft/Paper version.
 
-## About this backup
+## fyi
 
-This is an unofficial FiestaSMP community backup. It is not affiliated with or endorsed by Mojang or Microsoft, and it does not give anyone a license to Minecraft or their other material.
+Community backup, not an official Mojang or Microsoft thing. It doesn't give anyone a Minecraft license.
 
-Backed up and published using Fiesta tools by `gautam652`.
+Backed up and uploaded using Fiesta tools by `gautam652`.
