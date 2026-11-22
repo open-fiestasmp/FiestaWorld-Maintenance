@@ -2,9 +2,11 @@
 
 Raw `maintenance` world folder from FiestaSMP (`fiestamc.neocities.org`), saved on 2026-11-21. This is just the world save, not the server plugins or config.
 
+The `.world-tier/access` files are included too. They record region access times; they aren't needed to load the save.
+
 ## grab the files
 
-Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), pick `snapshot-2026-11-21`, then download **Source code (zip)** and extract it. Use the folder with `level.dat`. The green **Code → Download ZIP** link gets the latest branch instead.
+Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), pick `snapshot-2026-11-22`, then download **Source code (zip)** and extract it. Use the folder with `level.dat`. The green **Code → Download ZIP** link gets the latest branch instead.
 
 ## load it
 
