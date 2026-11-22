@@ -1,21 +1,32 @@
 # fiesta maintenance world
 
-Raw `maintenance` world folder from FiestaSMP (`fiestamc.neocities.org`), saved on 2026-11-21. This is just the world save, not the server plugins or config.
+This is the FiestaSMP maintenance world save from 2026-11-21. It's a separate world; the main Overworld, Nether and End are in the other repos. This repo doesn't include plugins, server settings or a full server backup.
 
-The `.world-tier/access` files are included too. They record region access times; they aren't needed to load the save.
+The world files add up to about 35 MB. Leave some extra space to download and extract it. Use Java Edition and the same Minecraft/Paper version the save came from.
 
-## grab the files
+## download
 
-Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), pick `snapshot-2026-11-22`, then download **Source code (zip)** and extract it. Use the folder with `level.dat`. The green **Code → Download ZIP** link gets the latest branch instead.
+Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), choose `snapshot-2026-11-22`, then download **Source code (zip)**. Extract it. The folder with `level.dat` at its top level is the save. `README.md` is just this guide and can be removed after you read it.
 
-## load it
+## use it in java single-player
 
-**Single-player:** copy the extracted folder into your Java Edition `saves` folder.
+1. Close Minecraft.
+2. Copy the extracted folder with `level.dat` into your Java Edition `saves` folder. On Windows that's `%appdata%\.minecraft\saves`; on macOS it's `~/Library/Application Support/minecraft/saves`; on Linux it's usually `~/.minecraft/saves`. Custom launchers may use a different game folder.
+3. Rename the folder to `Fiesta maintenance` and open it with a matching Minecraft version. Back up first if you already have a save with that name.
 
-**Paper server:** stop it and back up its current worlds first. Put the extracted folder in the server's world directory and set `level-name` to that folder's name. Don't merge files into a running world; use a compatible Minecraft/Paper version.
+## use it on a server
 
-## fyi
+1. Stop the server and back up its current world folders.
+2. Extract this archive and put the folder with `level.dat` in the server directory. Name it `maintenance` if that's the name your server or world manager expects.
+3. If you want it to be the server's main world, set `level-name=maintenance` in `server.properties` while the server is stopped. If a world manager plugin handles it, use that plugin's import process instead.
+4. Start the same Paper/Minecraft version and check the console before anyone joins.
 
-Community backup, not an official Mojang or Microsoft thing. It doesn't give anyone a Minecraft license.
+Don't replace `world`, `world_nether` or `world_the_end` with this folder unless you mean to replace those worlds.
+
+## extra files
+
+`.world-tier/access` has small region access-time markers. Minecraft doesn't need them to load the save; keep them if you want that access history.
+
+This is a community backup from FiestaSMP. We aren't Mojang or Microsoft, and this doesn't include or grant a Minecraft license.
 
 Backed up and uploaded using Fiesta tools by `gautam652`.
