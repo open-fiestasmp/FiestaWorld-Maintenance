@@ -1,12 +1,12 @@
 # fiesta maintenance world
 
-This is the FiestaSMP maintenance world save from 2026-11-21. It's a separate world; the main Overworld, Nether and End are in the other repos. This repo doesn't include plugins, server settings or a full server backup.
+This is the FiestaSMP maintenance world save from 2026-11-26. It's a separate world; the main Overworld, Nether and End are in the other repos. This repo doesn't include plugins, server settings or a full server backup.
 
 The world files add up to about 35 MB. Leave some extra space to download and extract it. Use Java Edition and the same Minecraft/Paper version the save came from.
 
 ## download
 
-Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), choose `snapshot-2026-11-22`, then download **Source code (zip)**. Extract it. The folder with `level.dat` at its top level is the save. `README.md` is just this guide and can be removed after you read it.
+Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), choose `snapshot-2026-11-26`, then download **Source code (zip)**. Extract it. The folder with `level.dat` at its top level is the save. `README.md` is just this guide and can be removed after you read it.
 
 ## use it in java single-player
 
