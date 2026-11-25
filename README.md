@@ -27,6 +27,6 @@ Don't replace `world`, `world_nether` or `world_the_end` with this folder unless
 
 `.world-tier/access` has small region access-time markers. Minecraft doesn't need them to load the save; keep them if you want that access history.
 
-This is a community backup from FiestaSMP. We aren't Mojang or Microsoft, and this doesn't include or grant a Minecraft license.
+This FiestaSMP community backup isn't affiliated with Mojang or Microsoft. It doesn't include or grant a Minecraft license.
 
 Backed up and uploaded using Fiesta tools by `gautam652`.
