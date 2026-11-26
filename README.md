@@ -6,7 +6,7 @@ The world files add up to about 35 MB. Leave some extra space to download and ex
 
 ## download
 
-Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), choose `snapshot-2026-11-26`, then download **Source code (zip)**. Extract it. The folder with `level.dat` at its top level is the save. `README.md` is just this guide and can be removed after you read it.
+Open [Releases](https://github.com/open-fiestasmp/world-maintaince/releases), choose `snapshot-2026-11-26-3`, then download **Source code (zip)**. Extract it. The folder with `level.dat` at its top level is the save. `README.md` is just this guide and can be removed after you read it.
 
 ## use it in java single-player
 
